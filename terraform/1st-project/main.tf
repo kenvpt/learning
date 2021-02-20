@@ -8,7 +8,5 @@ module "vpc" {
   vpc_availability_zones = var.vpc["availability_zones"]
   vpc_private_subnets    = var.vpc["private_subnets"]
   vpc_public_subnets     = var.vpc["public_subnets"]
-  vpc_database_subnets   = var.vpc["database_subnets"]
-
 }
 
