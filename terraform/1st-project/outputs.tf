@@ -18,10 +18,4 @@ output "database_subnets" {
   value = module.vpc.database_subnets
 }
 
-output "route53_private_zone_id" {
-  value = module.vpc.route53_private_zone_id
-}
 
-output "security_groups" {
-  value = module.vpc.security_groups
-}
