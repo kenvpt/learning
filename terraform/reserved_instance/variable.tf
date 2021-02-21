@@ -23,7 +23,7 @@ variable "ec2_capacity_reservation" {
   }
 }
 
-locals{
-    ec2_capacity_reservation = { for v in var.ec2_capacity_reservation : v => v }
-}
+# locals{
+#     ec2_capacity_reservation = { for v in var.ec2_capacity_reservation : v => v }
+# }
  
