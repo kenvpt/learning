@@ -10,4 +10,8 @@ module "vpc" {
 }
 
 
+module "ec2" {
+  source =
 
+  variable =
+}
